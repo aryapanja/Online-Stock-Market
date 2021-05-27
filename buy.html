@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Buy stocks</title>
+ <link rel="stylesheet" href="buy.css">
+ </script>
+</head>
+<body>
+   <div class="flex-container">
+    <div>
+     <div id="logo">
+      <img src="transparent-bull-icon-investment-icon-5fd5863f3948b2.3709136516078290552346.png" alt="" width="2.7%"
+       style="float:left" ;>
+      <h1 id="page_name">FREE TRADE</h1>
+     </div>
+    </div>
+    <div class="back"><button onclick="location.href='my_page.html'" class="bttn">back</button></div>
+    <div class="logout">
+     <button onclick="location.href='login.html'" class="bttn">logout</button>
+    </div>
+   </div>
+
+   <div align=center>
+    <pre class="note">I n v e s t   e a r l y   a n d   m a k e   t h e   m o s t   g a i n s</pre>
+   </div>
+
+   <div class="row">
+     <div> 
+      <table id="shares">
+       <tr>
+        <th>Share name</th>
+        <th>Current Price(INR)</th>
+        <th>Amount</th>
+       </tr>
+       <tr>
+        <td>Tata Teleservices Limited</td>
+        <td>13.55</td>
+        <td>1000</td>
+       </tr>
+       <tr>
+        <td>Tata Power Company Limited</td>
+        <td>106.00</td>
+        <td>1000</td>
+       </tr>
+       <tr>
+        <td>Tata Motors Limited</td>
+        <td>315.15</td>
+        <td>25</td>
+       </tr>
+       <tr>
+        <td>HDFC Life Insurance Company Ltd</td>
+        <td>659</td>
+        <td>7</td>
+       </tr>
+       <tr>
+        <td>Vihaan Industries</td>
+        <td>1.51</td>
+        <td>5000</td>
+       </tr>
+      
+      </table>
+     </div>
+     <div class="bull"> <img src="bull.png" alt="" width="110%"> </div>
+     <div class="tab"> 
+      
+           <!-- TradingView Widget BEGIN -->
+           <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+             {
+              "colorTheme": "light",
+              "dateRange": "12M",
+              "exchange": "BSE",
+              "showChart": false,
+              "locale": "en",
+              "largeChartUrl": "",
+              "isTransparent": false,
+              "showSymbolLogo": false,
+              "width": "550",
+              "height": "360"
+             }
+            </script>
+           </div>
+           <!-- TradingView Widget END -->
+
+     </div>
+   </div>
+   <a href="https://in.tradingview.com/" target="_blank"><div class="link" align="center">
+    <pre>C l i c k   h e r e   t o   v i e w   t h e   c u r r e n t   p r i c e s   o f   t h e   s t o c k</pre>
+   </div></a>
+
+   <div class="row1">
+    <div align=center><input type="text" placeholder="Share name" required></div>
+    <div align=left><input type="text" placeholder="Amount" required></div>
+   </div>
+
+   <a href="#" class="button">B u y</a>
+</body>
+</html>

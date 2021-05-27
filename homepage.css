@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(IT\'S\ EARNINGS\ SEASON.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#logo {
+  color: #966637;
+}
+#page_name {
+  padding-left: 0.5px;
+  font-size: 3.5vh;
+  font-family: "Norwester", arial;
+}
+#phrase {
+  margin-top: -40vh;
+  font-family: "Norwester", arial;
+  font-size: 10vh;
+  font-weight: bold;
+  padding-top: 22vh;
+  padding-left: 12vh;
+  color: #c58545;
+  width: 50%;
+}
+
+.arya:hover,
+text-glow:focus.text-glow:active {
+  text-shadow: 1px 0px 20px #ffb061af;
+}
+#phrase {
+  -webkit-animation: breathing 5s ease-out infinite normal;
+  animation: breathing 5s ease-out infinite normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+#middle {
+  padding-left: 45vh;
+}
+.button {
+  background-color: #a25e1c;
+  border: none;
+  color: white;
+  padding: 2vh 5vh;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 175vh;
+  margin-right: 0vh;
+  margin-top: 16vh;
+  cursor: pointer;
+  border-radius: 10vh;
+  font-size: 2vh;
+  transform: rotate(90deg);
+}
+.button:hover {
+  background-color: #c58545;
+}
+
+#about {
+  background-color: rgba(236, 162, 90, 0.5);
+  font-size: 8.2vh;
+  font-weight: bold;
+  text-align: center;
+  line-height: 0.9;
+  margin-top: 45vh;
+  margin-bottom: 10vh;
+  padding: 0.5vh;
+  font-family: arial;
+  border-radius: 10vh;
+  overflow-y: hidden;
+  color: #503011;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin: 100px;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  border-radius: 10px;
+  box-shadow: 0px 11px 35px 1px #552820;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 30px;
+}
+
+.reg {
+  border: 2px solid black;
+  border-radius: 5px;
+  display: inline;
+  margin-left: 43%;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(236, 162, 90, 0.5);
+}
+
+.reg:hover {
+  cursor: pointer;
+  background-color: rgba(177, 119, 43, 0.651);
+}
+
+#reg {
+  color: black;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}

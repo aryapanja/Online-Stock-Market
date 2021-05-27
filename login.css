@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url(bg_login.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#heading {
+  font-size: 10vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #503011;
+}
+
+#sub-heading {
+  color: #79512b;
+  padding-top: 12px;
+  font-weight: bold;
+}
+
+.main {
+  background: linear-gradient(to right, #d3a05c, #d18c31);
+  width: 400px;
+  height: 370px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 1px #552820;
+}
+
+.sign {
+  padding-top: 40px;
+  color: #742c2c;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.un {
+  width: 76%;
+  color: #e94d4d;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(203, 255, 106, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+form.form1 {
+  padding-top: 40px;
+}
+
+.pass {
+  width: 76%;
+  color: #e94d4d;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(255, 255, 255);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid rgba(255, 255, 255, 0.02);
+  margin-bottom: 50px;
+  margin-left: 46px;
+  text-align: center;
+  margin-bottom: 27px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.un:focus,
+.pass:focus {
+  border: 2px solid #503011;
+}
+
+.submit {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #5e2626, #943434);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 35%;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(255, 255, 255, 0.04);
+}
+
+.forgot {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #ffffff;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+a {
+  text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+  color: #692828;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2e1313;
+}

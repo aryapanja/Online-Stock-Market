@@ -1,0 +1,125 @@
+body {
+  background: url(bg_signup.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0px;
+}
+.flex-container {
+  display: flex;
+  background-color: rgba(121, 36, 36, 0.2);
+}
+
+.flex-container > div {
+  float: right;
+}
+
+.back {
+  margin-left: auto;
+}
+
+.logout {
+  margin-left: 5px;
+}
+
+.bttn {
+  margin-right: 10px;
+  margin-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 5px;
+  outline: none;
+}
+
+.bttn:hover {
+  background-color: #cac7c7;
+  cursor: pointer;
+}
+
+#shares {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 80px;
+  box-shadow: 0px 11px 35px 1px #552820;
+}
+
+#shares td,
+#shares th {
+  border: 1px solid #ddd;
+  padding: 21.5px;
+}
+
+#shares tr:nth-child(even) {
+  background-color: rgb(250, 213, 145);
+}
+
+#shares tr:nth-child(odd) {
+  background-color: rgb(252, 225, 176);
+}
+
+#shares tr:hover {
+  background-color: #f3c795;
+}
+
+#shares th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f59e2d;
+  color: rgb(82, 54, 17);
+}
+
+.link {
+  margin-top: 50px;
+  font-size: 20px;
+  background-color: #f1c95a;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 5px;
+}
+
+.link:hover {
+  cursor: pointer;
+  background-color: #c99b1f;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(82, 54, 17);
+}
+
+.row1 {
+  display: grid;
+  width: 20%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  margin-left: 620px;
+}
+.button,
+.button1 {
+  background-color: #4caf50;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 60px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.button1 {
+  background-color: red;
+}

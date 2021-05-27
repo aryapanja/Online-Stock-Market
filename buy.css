@@ -1,0 +1,167 @@
+body {
+  background: url(bg_signup.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0px;
+}
+.flex-container {
+  display: flex;
+  background-color: rgba(121, 36, 36, 0.2);
+}
+
+.flex-container > div {
+  float: right;
+}
+
+.back {
+  margin-left: auto;
+}
+
+.logout {
+  margin-left: 5px;
+}
+
+.bttn {
+  margin-right: 10px;
+  margin-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  background-color: #e7e7e7;
+  color: black;
+  border-radius: 5px;
+  outline: none;
+}
+
+.bttn:hover {
+  background-color: #cac7c7;
+  cursor: pointer;
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 2fr 150px 2fr;
+  grid-gap: 10px;
+  margin: 80px;
+  margin-top: 40px;
+}
+
+#shares {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#shares td,
+#shares th {
+  border: 1px solid #ddd;
+  padding: 21.5px;
+}
+
+#shares tr:nth-child(even) {
+  background-color: rgb(250, 213, 145);
+}
+
+#shares tr:nth-child(odd) {
+  background-color: rgb(252, 225, 176);
+}
+
+#shares tr:hover {
+  background-color: #f3c795;
+}
+
+#shares th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f1c95a;
+  color: rgb(82, 54, 17);
+}
+
+.bull {
+  margin-top: 210px;
+  margin-right: 10px;
+}
+
+.tab {
+  background-color: #c9a749;
+}
+
+.link {
+  margin-top: -60px;
+  font-size: 20px;
+  background-color: #f1c95a;
+  margin-left: 79px;
+  margin-right: 79px;
+  padding: 5px;
+}
+
+.link:hover {
+  cursor: pointer;
+  background-color: #c99b1f;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  width: 50%;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(241, 180, 99);
+  border: none;
+  color: black;
+  text-align: center;
+}
+
+input:focus {
+  background-color: rgb(233, 158, 60);
+}
+
+input::placeholder {
+  color: black;
+  text-align: center;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 60px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 690px;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: rgb(62, 199, 62);
+}
