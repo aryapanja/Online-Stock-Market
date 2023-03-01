@@ -1,2 +1,3 @@
-# aryapanja.github.io
-Online Portfolio for Stock Market
+# Online Portfolio for Stock Market
+
+Design of an online stock market website
