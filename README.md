@@ -5,4 +5,4 @@ Design of an online stock market website using html and css
 Following are the snapshots of the various pages created:
 
 1) Login Page: 
-
+<img src="./s5.png" width=20% height=20%>
